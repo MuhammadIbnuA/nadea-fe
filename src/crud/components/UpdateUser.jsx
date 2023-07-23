@@ -25,7 +25,7 @@ function UpdateUser() {
   const handleUpdate = (e) => {
     e.preventDefault();
     axios
-      .put("https://nadea-be.vercel.app/update" + id, { name, forWho, message })
+      .put("https://nadea-be.vercel.app/update/" + id, { name, forWho, message })
       .then((result) => {
         console.log(result);
         navigate("/users");
