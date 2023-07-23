@@ -26,7 +26,7 @@ function Signup() {
         axios
             .post("https://nadea-be.vercel.app/register", { name, email, password })
             .then((res) => {
-                navigate("/login");
+                navigate("/");
             })
             .catch((err) => console.log(err));
     };
