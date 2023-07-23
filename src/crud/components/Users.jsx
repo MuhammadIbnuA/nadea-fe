@@ -16,7 +16,7 @@ function Users() {
 
   const handleDelete = (id) => {
     axios
-      .delete("https://nadea-be.vercel.app/delete" + id)
+      .delete("https://nadea-be.vercel.app/delete/" + id)
       .then((res) => {
         console.log(res);
         window.location.reload();
