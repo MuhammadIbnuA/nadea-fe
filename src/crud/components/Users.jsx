@@ -19,7 +19,7 @@ function Users() {
       .delete("https://nadea-be.vercel.app/delete/" + id)
       .then((res) => {
         console.log(res);
-        window.location.reload();
+        navigate("/users");
       })
       .catch((err) => console.log(err));
   };
