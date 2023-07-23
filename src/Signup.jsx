@@ -84,7 +84,7 @@ function Signup() {
                 </form>
                 <p>Already Have an Account?</p>
                 <Link
-                    to="/login"
+                    to="/"
                     className="bg-light"
                 >
                     Login
