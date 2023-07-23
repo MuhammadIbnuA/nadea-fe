@@ -12,7 +12,7 @@ function UpdateUser() {
 
   useEffect(() => {
     axios
-      .get("https://nadea-be.vercel.app/getUser" + id)
+      .get("https://nadea-be.vercel.app/getUser/" + id)
       .then((result) => {
         console.log(result);
         setName(result.data.name);
