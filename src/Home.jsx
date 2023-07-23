@@ -10,7 +10,7 @@ function Home() {
         <Link to="/users" className="btn-primary">
           View Messages
         </Link>
-        <Link to="/login" className="btn-logout">
+        <Link to="/" className="btn-logout">
           Logout
         </Link>
       </div>
